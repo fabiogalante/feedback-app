@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 function Header({ text }) {
   return (
-    <header>
-      <div className='container'>
+    <>
+      <header>
         <h2>{text}</h2>
-      </div>
-    </header>
-  );
+      </header>
+    </>
+  )
 }
 
 Header.defaultProps = {
